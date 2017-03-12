@@ -21,6 +21,3 @@ If the path following the base is a valid Signal K path `GET` MUST retrieve the 
 }
 ```
 
-#### Meta.units value
-
-If a client requests the `meta.units` for a given key eg  `GET /signalk/v1/api/vessels/123456789/navigation/speedThroughWater/meta/units`, the REST interface MUST return the value if available in the `data_model_metadata.md` for the version of the specification it supports.
